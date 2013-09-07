@@ -1,4 +1,4 @@
-<h1>Listing perzonas</h1>
+<h1>Listing personas</h1>
 
 <table>
   <tr>
@@ -6,6 +6,7 @@
     <th>Direccion</th>
     <th>Nombre</th>
     <th>Apellido</th>
+    <th>Fecha de Fusión</th>
     <th></th>
     <th></th>
     <th></th>
@@ -17,6 +18,7 @@
     <td><%= perzona.direccion %></td>
     <td><%= perzona.nombre %></td>
     <td><%= perzona.apellido %></td>
+    <td><%= perzona.aggregate_date %></td>
     <td><%= link_to 'Show', perzona %></td>
     <td><%= link_to 'Edit', edit_perzona_path(perzona) %></td>
     <td><%= link_to 'Destroy', perzona, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -26,4 +28,4 @@
 
 <br />
 
-<%= link_to 'New Perzona', new_perzona_path %>
+<%= link_to 'New Persona', new_perzona_path %>
