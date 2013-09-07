@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Cedula:</b>
+  <%= @perzona.cedula %>
+</p>
+
+<p>
+  <b>Direccion:</b>
+  <%= @perzona.direccion %>
+</p>
+
+<p>
+  <b>Nombre:</b>
+  <%= @perzona.nombre %>
+</p>
+
+<p>
+  <b>Apellido:</b>
+  <%= @perzona.apellido %>
+</p>
+
+
+<%= link_to 'Edit', edit_perzona_path(@perzona) %> |
+<%= link_to 'Back', perzonas_path %>
