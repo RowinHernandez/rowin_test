@@ -1,5 +1,5 @@
-class AddDateIdToPerzonas < ActiveRecord::Migration
+class AddDateIdToPersonas < ActiveRecord::Migration
   def change
-  	add_column :perzonas, :aggregate_date, :date_time
+  	add_column :perzonas, :aggregate_date, :datetime
   end
 end

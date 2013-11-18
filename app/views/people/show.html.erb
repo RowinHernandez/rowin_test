@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Cedula:</b>
+  <%= @person.cedula %>
+</p>
+
+<p>
+  <b>Direccion:</b>
+  <%= @person.direccion %>
+</p>
+
+<p>
+  <b>Nombre:</b>
+  <%= @person.nombre %>
+</p>
+
+<p>
+  <b>Apellido:</b>
+  <%= @person.apellido %>
+</p>
+
+<p>
+  <b>Fecha de Fusión:</b>
+  <%= @person.aggregate_date %>
+</p>
+
+
+<%= link_to 'Editar', edit_person_path(@person) %> |
+<%= link_to 'Atras', people_path %>

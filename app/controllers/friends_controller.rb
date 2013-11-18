@@ -1,4 +1,4 @@
-class AmigosController < ApplicationController
+class FriendsController < ApplicationController
   # GET /amigos
   # GET /amigos.json
   def index

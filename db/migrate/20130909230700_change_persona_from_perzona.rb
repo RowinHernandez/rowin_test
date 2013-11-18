@@ -1,5 +1,5 @@
 class ChangePersonaFromPerzona < ActiveRecord::Migration
   def change
-    change_table :perzona, :persona
+    rename_table :perzonas, :personas
   end
 end

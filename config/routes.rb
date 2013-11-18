@@ -1,8 +1,8 @@
 RowinTest::Application.routes.draw do
-  resources :perzonas
+  resources :people
 
 
-  resources :amigos
+  resources :friends
 
 
   # The priority is based upon order of creation:
